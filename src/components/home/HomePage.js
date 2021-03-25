@@ -33,7 +33,7 @@ function HomePage() {
         </div>
         <br></br>
         <br></br>
-    <Divider variant="middle" />
+     <Divider variant="middle" />
         <h2 className="text-left">To Score First</h2><br></br>
         <div className="container text-center">
         <Link to="Betslip" className="btn btn-primary btn-lg mr-5">
