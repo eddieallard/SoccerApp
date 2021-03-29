@@ -15,14 +15,14 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-function NavBar() {
+function NavBar({setBetslip}) {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+          <IconButton onClick={() => setBetslip()} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
         </Toolbar>
