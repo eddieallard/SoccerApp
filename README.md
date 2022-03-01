@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Soccer Betting App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was designed to give a fan the ablility to bet on their favorite soccer team.
 
 ## Available Scripts
 
